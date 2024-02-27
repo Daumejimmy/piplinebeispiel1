@@ -1,4 +1,4 @@
-name: Hello Peter!
+name: Hello World!
 
 on:
   push:
@@ -9,7 +9,12 @@ jobs:
   hello_world_job:
     runs-on: ubuntu-20.04
     steps:
-      
       - name: Say hello
         run: |
           echo "Hello, CI Workflow!"
+      - name: Now it is
+        run: |
+          date
+      - name: Say welcome
+        run: |
+          echo "Welcome to CI Workflow!"
