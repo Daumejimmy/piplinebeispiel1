@@ -1,2 +1,2 @@
 # piplinebeispiel1
-Ich baue eine pipline mit GitHub Actionw
+Ich baue eine pipline mit GitHub Action
